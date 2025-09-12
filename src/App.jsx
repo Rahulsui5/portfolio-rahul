@@ -560,10 +560,10 @@ function App() {
         <motion.footer  initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1,delay:1.5}} className=" flex justify-center items-center mt-5 flex-col ">
           <div className="border-t w-[80vw] lg:max-w-7xl lg:text-lg text-sm text-gray-600 hover:text-black  border-gray-500  text-center py-7 flex justify-center "> &reg;ahul. <p className="px-7">All rights reserved</p>&copy; 2025 &hearts; </div>
           <div className="w-full flex justify-evenly mb-7">
-            <FontAwesomeIcon className="h-7 w-7 hover:text-gray-600" icon={faGithub}></FontAwesomeIcon>
-            <FontAwesomeIcon className="h-7 w-7 hover:text-red-500" icon={faInstagram}></FontAwesomeIcon>
-            <FontAwesomeIcon className="h-7 w-7 hover:text-blue-700" icon={faLinkedin}></FontAwesomeIcon>
-            <FontAwesomeIcon className="h-7 w-7 hover:text-green-500" icon={faWhatsapp}></FontAwesomeIcon>
+            <a href="https://github.com/Rahulsui5"><FontAwesomeIcon  className="h-7 w-7 hover:text-gray-600" icon={faGithub}></FontAwesomeIcon></a>
+            <a href="https://www.instagram.com/rana_sui_5?igsh=MTcwNDJyamRyOGF3ag==" ><FontAwesomeIcon className="h-7 w-7 hover:text-red-500" icon={faInstagram}></FontAwesomeIcon></a>
+            <a href="https://www.linkedin.com/in/rahul-kumar-sui-348b69310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FontAwesomeIcon  className="h-7 w-7 hover:text-blue-700" icon={faLinkedin}></FontAwesomeIcon></a>
+            <a href="https://wa.me/qr/PP2PPGKYCOEUE1 "><FontAwesomeIcon  className="h-7 w-7 hover:text-green-500" icon={faWhatsapp}></FontAwesomeIcon></a>
           </div>
         </motion.footer>
       </div>
