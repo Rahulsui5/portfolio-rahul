@@ -97,7 +97,7 @@ function App() {
 
   return (
     <>
-      <div className=" w-screen  font-serif bg-gradient-to-br from-red-50 via-blue-50 to-purple-50">
+      <div className=" w-screen  font-serif bg-gradient-to-br from-red-50 via-blue-50 to-purple-50 overflow-hidden">
         <Cursor />
         <motion.header
           initial={{ opacity: 0, scale: 0.9 }}
